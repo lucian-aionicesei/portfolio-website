@@ -1,0 +1,315 @@
+body {
+  margin: 0px;
+}
+
+header {
+  padding: 0px 40px;
+  position: absolute;
+  right: 0px;
+  width: 100%;
+  color: black;
+}
+
+header a {
+  color: black;
+}
+
+.white-text {
+  color: rgb(238, 238, 238);
+}
+
+.dark-text {
+  color: black;
+}
+
+.theme-color1 {
+  color: black;
+  background-color: #f6a90f;
+}
+
+.theme-color2 {
+  color: rgb(238, 238, 238);
+  background-color: #2877bc;
+}
+
+.theme-color3 {
+  color: rgb(238, 238, 238);
+  background-color: #bc2222;
+}
+
+.theme-color4 {
+  color: rgb(238, 238, 238);
+  background-color: #427c21;
+}
+
+#font-tester {
+  width: 100%;
+  max-width: 30rem;
+}
+
+.project-intro {
+  height: 85vh;
+  padding: 8rem 40px 0px 40px;
+  display: grid;
+  grid-template-columns: 1.5fr 2fr;
+  overflow: hidden;
+}
+
+.project-title {
+  line-height: 2.5rem;
+}
+
+p {
+  margin: 1.7rem 0rem 1.7rem 0px;
+  font-size: 0.9rem;
+  line-height: 1.5rem;
+}
+
+.project-intro img {
+  width: 100%;
+  align-self: center;
+}
+
+.ui-elements {
+  margin-bottom: 3rem;
+}
+
+.centered-content {
+  height: fit-content;
+  width: 60%;
+  margin: auto;
+  padding: 6rem 0px 6rem 0px;
+}
+
+article {
+  width: 100%;
+}
+
+article h4 {
+  margin: 1rem 0rem;
+}
+
+article img {
+  width: 100%;
+}
+
+.image-h-container {
+  display: flex;
+}
+
+.image-h-container img {
+  width: 100%;
+  max-width: fit-content;
+  padding: 1rem 1rem 1rem 0px;
+}
+
+.ui-elements {
+  display: flex;
+}
+
+.ui-elements img {
+  max-width: min-content;
+  padding: 1rem 1rem 1rem 0px;
+}
+
+.project-content-display {
+  height: auto;
+  width: 100%;
+  padding: 8rem 40px 0px 40px;
+  display: grid;
+  grid-template-columns: 0.5fr 2fr;
+  flex-direction: row;
+}
+
+.image-book img {
+  width: 100%;
+}
+
+.project-content-display h4 {
+  align-self: flex-end;
+  margin: 2rem 0px;
+}
+
+.image-book {
+  display: flex;
+  width: 100%;
+  align-items: baseline;
+}
+
+.left-arrow {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  margin: 1rem 2rem;
+  transform: translateY(-1rem);
+
+  border-right: 25px solid rgb(29, 29, 29);
+}
+
+.right-arrow {
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-bottom: 15px solid transparent;
+  margin: 1rem 2rem;
+  transform: translateY(-1rem);
+
+  border-left: 25px solid rgb(29, 29, 29);
+}
+
+.image-examples {
+  display: flex;
+  width: 100%;
+}
+
+.image-example {
+  padding-right: 1rem;
+}
+
+.project-simple-display {
+  height: auto;
+  width: 100%;
+  padding: 8rem 40px 0px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.project-simple-display img {
+  width: 100%;
+  max-width: fit-content;
+  margin: 1rem 1rem 1rem 0px;
+}
+
+.two-column-display {
+  height: auto;
+  width: 80%;
+  margin: auto;
+  padding: 4rem 40px;
+  display: flex;
+}
+
+.two-column-display img {
+  width: 100%;
+  max-width: fit-content;
+  height: auto;
+  padding: 1rem;
+}
+
+.two-column-display div img {
+  width: 100%;
+  max-width: fit-content;
+  height: auto;
+}
+
+.images-grid {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+}
+
+@media only screen and (max-width: 1150px) {
+  .project-intro {
+    height: auto;
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
+  .project-details {
+    padding: 2rem 2rem;
+  } 
+
+  .centered-content{
+    width: 80%;
+  }
+
+  .project-content-display {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .project-content-display h4 {
+    align-self: flex-start;
+  }
+
+  .left-arrow {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin: 2rem;
+  
+    border-right: 15px solid rgb(29, 29, 29);
+  }
+  
+  .right-arrow {
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    margin: 2rem;
+  
+    border-left: 15px solid rgb(29, 29, 29);
+  }
+
+  .images-grid {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .image-example2 {
+    display: flex;
+  }
+
+  .image-example2 img{
+    max-width: fit-content;
+    padding-right: 1rem;
+  }
+
+  .two-column-display {
+    flex-direction: column;
+  }
+
+  .image-examples {
+    flex-direction: column;
+  }
+
+  .image-examples img{
+    max-width: fit-content;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .project-intro {
+    padding: 8rem 0px 0px 0px;
+  }
+  
+  .image-h-container{
+    flex-direction: column;
+  }
+
+  .ui-elements {
+    flex-direction: column;
+  }
+
+  .centered-content{
+    width: 90%;
+  }
+
+  .project-content-display {
+    padding: 0.5rem;
+  }
+
+  .left-arrow {
+    margin: 2rem 10px;
+  }
+  
+  .right-arrow {
+    margin: 2rem 10px;
+  }
+
+  .two-column-display {
+    height: auto;
+    width: 100%;
+    margin: auto;
+    padding: 4rem 40px;
+    display: flex;
+  }
+
+}
