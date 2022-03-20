@@ -95,6 +95,7 @@ article img {
 
 .image-h-container {
   display: flex;
+  width: 100%;
 }
 
 .image-h-container img {

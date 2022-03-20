@@ -54,7 +54,41 @@
     padding-top: 0.75rem;
   }
 
+  /* About */
+
+.about {
+  padding: 2rem;
+  width: 100%;
+  margin: auto;
+  /* background-color: rgb(15, 15, 15); */
+}
+
+.about p {
+  font-family: var(--display-font);
+  font-size: 1.3rem;
+  line-height: 2.6rem;
+}
+
+.about h4 {
+  line-height: 3.2rem;
+}
+
+@media only screen and (max-width: 600px) {
+
+  .about {
+    padding: 3rem 0px;
+    width: 100%;
+    margin: auto;
+  }
+
+}
+
   @media only screen and (max-width: 1200px) {
+
+    .about p {
+      font-size: 1rem;
+      line-height: 2.6rem;
+    }
 
     #projects {
       grid-template-columns: 1fr;
